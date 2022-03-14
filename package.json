@@ -1,13 +1,12 @@
 {
   "name": "hello-world-bonarea",
   "version": "0.0.0",
-  "build": "ng build",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "heroku-postbuild": "ng build —c production"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
